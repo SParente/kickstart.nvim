@@ -51,5 +51,11 @@ sudo flatpak install flathub org.keepassxc.KeePassXC -y
 sudo dnf install docker -y
 sudo dnf install tmux -y
 sudo dnf install gh -y
+sudo dnf install golang -y
 # Tmux config
 echo "set -g base-index 1" > ~/.tmux.conf
+
+
+# configs
+export PATH=$PATH:~/go/bin
+export PATH=$PATH:/usr/local/go/bin
