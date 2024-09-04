@@ -60,6 +60,10 @@ echo "set -g base-index 1" > ~/.tmux.conf
 export PATH=$PATH:~/go/bin
 export PATH=$PATH:/usr/local/go/bin
 
+#Lazygit
+sudo dnf copr enable atim/lazygit -y
+sudo dnf install lazygit -y
+
 # Nerd Fonts
 wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/JetBrainsMono.zip \
 && cd ~/.local/share/fonts \
