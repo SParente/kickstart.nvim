@@ -1,5 +1,11 @@
 # kickstart.nvim
 
+## Quick Start
+
+to run an OS file, go for something like:
+```
+curl https://raw.githubusercontent.com/SParente/kickstart.nvim/master/os/fedora.sh | sh
+```
 ## Introduction
 
 A starting point for Neovim that is:
