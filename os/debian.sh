@@ -43,6 +43,9 @@ gsettings set org.gnome.desktop.interface enable-hot-corners false
 ##scroll direction
 gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll true
 
+##calendar week number
+gsettings set org.gnome.desktop.calendar show-weekdate true
+
 
 # NEOVIM
 sudo apt install -y gcc make git ripgrep fd-find unzip
